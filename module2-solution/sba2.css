@@ -1,0 +1,182 @@
+body {
+		margin-left: 35px; 
+	}
+
+@media (min-width: 992px) {
+
+	h1 {
+		text-align: center;
+	}
+
+
+	.abc, .def {
+		position: relative;
+		background-color: #ADD8E6;
+		font-size: 20px;
+		margin: 10px;
+		width: 31%;
+		height: 40%;
+		float: left;
+		border: 1px solid black;
+		padding: 10px 10px 10px 10px;
+		box-sizing: border-box;
+
+	}
+
+
+	#p1 {
+		position: absolute;
+		background-color: #FFB6C1;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+
+	}
+	#p2 {
+		position: absolute;
+		background-color: #90EE90;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+
+	}
+	#p3 {
+		position: absolute;
+		background-color: #FFFF99;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	h1 {
+		text-align: center;
+	}
+
+
+	.abc {
+		position: relative;
+		background-color: #ADD8E6;
+		font-size: 20px;
+		margin: 10px;
+		width: 46%;
+		height: 40%;
+		float: left;
+		border: 1px solid black;
+		padding: 10px 10px 10px 10px;
+		box-sizing: border-box;
+
+	}
+
+	.def {
+		position: relative;
+		background-color: #ADD8E6;
+		font-size: 20px;
+		margin: 10px;
+		width: 94.5%;
+		float: left;
+		border: 1px solid black;
+		padding: 10px 10px 10px 10px;
+		box-sizing: border-box;
+
+	}
+
+
+	#p1 {
+		position: absolute;
+		background-color: #FFB6C1;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+
+	}
+	#p2 {
+		position: absolute;
+		background-color: #90EE90;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+
+	}
+	#p3 {
+		position: absolute;
+		background-color: #FFFF99;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	h1 {
+		text-align: center;
+	}
+
+	.abc, .def {
+		position: relative;
+		background-color: #ADD8E6;
+		font-size: 20px;
+		margin: 10px;
+		width: 90%;
+		height: 40%;
+		border: 1px solid black;
+		padding: 10px 10px 10px 10px;
+		box-sizing: border-box;
+
+	}
+
+
+	#p1 {
+		position: absolute;
+		background-color: #FFB6C1;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+
+	}
+	#p2 {
+		position: absolute;
+		background-color: #90EE90;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+
+	}
+	#p3 {
+		position: absolute;
+		background-color: #FFFF99;
+		border: 1px solid black;
+		width: 100px;
+		text-align: center;
+		margin: 0px ;
+		top: 0px;
+		right: 0px;
+	}
+}
